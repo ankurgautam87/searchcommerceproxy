@@ -21,7 +21,7 @@ app.use(cors({ origin: 'https://retail-ecom-266785126170.asia-southeast1.run.ap'
 app.use(express.json());
 
 // --- MAIN PROXY ENDPOINT ---
-app.post('/api/search', async (req, res) => {
+app.post('/', async (req, res) => {
   console.log('Proxying request to Google Retail API with OAuth2 token...');
 
   try {
