@@ -17,7 +17,7 @@ const SERVING_CONFIG_ID = 'default_search';
 const GOOGLE_API_ENDPOINT = `https://retail.googleapis.com/v2/projects/${PROJECT_ID}/locations/${LOCATION_ID}/catalogs/${CATALOG_ID}/servingConfigs/${SERVING_CONFIG_ID}:search`;
 
 // --- MIDDLEWARE ---
-app.use(cors({ origin: 'https://retail-ecom-266785126170.asia-southeast1.run.app' }));
+app.use(cors({ origin: 'https://retail-ecom-266785126170.asia-southeast1.run.ap' }));
 app.use(express.json());
 
 // --- MAIN PROXY ENDPOINT ---
